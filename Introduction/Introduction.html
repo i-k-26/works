@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <!--JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/lightbox.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div id="foundation">
+
+        <header>
+            <div class="logo">
+                introduction
+            </div>
+        </header>
+
+        <main>
+
+            <!--menu-->
+            <nav>
+                <ul>
+                    <li class="selected" data-tab="top">Top</li>
+                    <li data-tab="about">About</li>
+                    <li data-tab="port">Portfolio</li>
+                    <li data-tab="contact">Contact</li>
+                </ul>
+            </nav>
+
+            <!--contents-->
+            <div class="main-contents">
+
+                <div class="inner-contents selected" id="top">
+                    <h2>top page</h2>
+                    <div class="icon">
+                        <a href="images/imag1.jpg" data-lightbox="group">
+                            <img src="images/imag1.jpg">
+                        </a>
+                        <a href="images/imag2.jpg" data-lightbox="group">
+                            <img src="images/imag2.jpg">
+                        </a>
+                        <a href="images/imag3.JPG" data-lightbox="group">
+                            <img src="images/imag3.JPG">
+                        </a>
+                        <a href="images/imag4.JPG" data-lightbox="group">
+                            <img src="images/imag4.JPG">
+                        </a>
+                        <a href="images/imag5.JPG" data-lightbox="group">
+                            <img src="images/imag5.JPG">
+                        </a>
+                        <a href="images/imag6.jpg" data-lightbox="group">
+                            <img src="images/imag6.jpg">
+                        </a>
+                        <a href="images/imag7.JPG" data-lightbox="group">
+                            <img src="images/imag7.JPG">
+                        </a>
+                        <a href="images/imag8.JPG" data-lightbox="group">
+                            <img src="images/imag8.JPG">
+                        </a>
+                        <a href="images/imag9.JPG" data-lightbox="group">
+                            <img src="images/imag9.JPG">
+                        </a>
+                        <a href="images/imag10.JPG" data-lightbox="group">
+                            <img src="images/imag10.JPG">
+                        </a>
+                        <a href="images/imag11.JPG" data-lightbox="group">
+                            <img src="images/imag11.JPG">
+                        </a>
+                        <a href="images/imag12.JPG" data-lightbox="group">
+                            <img src="images/imag12.JPG">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="inner-contents" id="about">
+                    about
+                </div>
+
+                <div class="inner-contents" id="port">
+                    <div class="port-foundation">
+
+                    </div>
+                </div>
+
+                <div class="inner-contents" id="contact">
+                    <h2>Contact</h2>
+                    <form method="post" active="" class="contact-form">
+                        <ul>
+                            <li>
+                                <label>Title</label>
+                                <input type="text" name="title" placeholder="Title">
+                            </li>
+                            <li>
+                                <label>Your Name</label>
+                                <input type="text" name="name" placeholder="Name">
+                            </li>
+                            <li>
+                                <label>Comments</label>
+                                <input type="text" name="comments" placeholder="Comments">
+                            </li>
+                        </ul>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
